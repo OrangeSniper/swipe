@@ -1,0 +1,7 @@
+{
+  "profiles": {
+    "osu.Game.Rulesets.swipe": {
+      "commandName": "Executable"
+    }
+  }
+}

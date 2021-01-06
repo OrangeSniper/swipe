@@ -1,0 +1,9 @@
+C:\Users\JoshBloodbitt\swipe\osu.Game.Rulesets.swipe\bin\Debug\netstandard2.1\osu.Game.Rulesets.swipe.deps.json
+C:\Users\JoshBloodbitt\swipe\osu.Game.Rulesets.swipe\bin\Debug\netstandard2.1\osu.Game.Rulesets.swipe.dll
+C:\Users\JoshBloodbitt\swipe\osu.Game.Rulesets.swipe\bin\Debug\netstandard2.1\osu.Game.Rulesets.swipe.pdb
+C:\Users\JoshBloodbitt\swipe\osu.Game.Rulesets.swipe\obj\Debug\netstandard2.1\osu.Game.Rulesets.swipe.csprojAssemblyReference.cache
+C:\Users\JoshBloodbitt\swipe\osu.Game.Rulesets.swipe\obj\Debug\netstandard2.1\osu.Game.Rulesets.swipe.AssemblyInfoInputs.cache
+C:\Users\JoshBloodbitt\swipe\osu.Game.Rulesets.swipe\obj\Debug\netstandard2.1\osu.Game.Rulesets.swipe.AssemblyInfo.cs
+C:\Users\JoshBloodbitt\swipe\osu.Game.Rulesets.swipe\obj\Debug\netstandard2.1\osu.Game.Rulesets.swipe.csproj.CoreCompileInputs.cache
+C:\Users\JoshBloodbitt\swipe\osu.Game.Rulesets.swipe\obj\Debug\netstandard2.1\osu.Game.Rulesets.swipe.dll
+C:\Users\JoshBloodbitt\swipe\osu.Game.Rulesets.swipe\obj\Debug\netstandard2.1\osu.Game.Rulesets.swipe.pdb
