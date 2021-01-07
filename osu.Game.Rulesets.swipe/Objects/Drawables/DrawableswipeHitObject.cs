@@ -16,20 +16,20 @@ using osuTK.Graphics;
 
 namespace osu.Game.Rulesets.swipe.Objects.Drawables
 {
-    public class DrawableswipeHitObject : DrawableHitObject<swipeHitObject>
+    public class DrawableswipeHitObject : DrawableHitObject<SwipeSpinner>
     {
         private const double time_preempt = 600;
         private const double time_fadein = 400;
 
         public override bool HandlePositionalInput => true;
 
-        public DrawableswipeHitObject(swipeHitObject hitObject)
+        public DrawableswipeHitObject(SwipeSpinner hitObject)
             : base(hitObject)
         {
             Size = new Vector2(80);
 
             Origin = Anchor.Centre;
-            Position = hitObject.Position;
+            Position = Vector2.Zero;
         }
 
         [BackgroundDependencyLoader]

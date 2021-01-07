@@ -41,7 +41,7 @@ namespace osu.Game.Rulesets.swipe
             }
         }
 
-        public override string ShortName => "swipe";
+        public override string ShortName => "osu!swipe";
 
         public override IEnumerable<KeyBinding> GetDefaultKeyBindings(int variant = 0) => new[]
         {

@@ -17,7 +17,7 @@ using osu.Game.Rulesets.UI;
 namespace osu.Game.Rulesets.swipe.UI
 {
     [Cached]
-    public class DrawableswipeRuleset : DrawableRuleset<swipeHitObject>
+    public class DrawableswipeRuleset : DrawableRuleset<SwipeSpinner>
     {
         public DrawableswipeRuleset(swipeRuleset ruleset, IBeatmap beatmap, IReadOnlyList<Mod> mods = null)
             : base(ruleset, beatmap, mods)
@@ -30,7 +30,7 @@ namespace osu.Game.Rulesets.swipe.UI
 
         protected override ReplayInputHandler CreateReplayInputHandler(Replay replay) => new swipeFramedReplayInputHandler(replay);
 
-        public override DrawableHitObject<swipeHitObject> CreateDrawableRepresentation(swipeHitObject h) => new DrawableswipeHitObject(h);
+        public override DrawableHitObject<SwipeSpinner> CreateDrawableRepresentation(SwipeSpinner h) => new DrawableswipeHitObject(h);
 
         protected override PassThroughInputManager CreateInputManager() => new swipeInputManager(Ruleset?.RulesetInfo);
     }
