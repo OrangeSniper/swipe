@@ -13,11 +13,9 @@ namespace osu.Game.Rulesets.swipe.Tests
         [STAThread]
         public static int Main(string[] args)
         {
-            using (DesktopGameHost host = Host.GetSuitableHost(@"osu", true))
-            {
-                host.Run(new OsuTestBrowser());
-                return 0;
-            }
+            using DesktopGameHost host = Host.GetSuitableHost(@"osu", true);
+            host.Run(new OsuTestBrowser());
+            return 0;
         }
     }
 }
