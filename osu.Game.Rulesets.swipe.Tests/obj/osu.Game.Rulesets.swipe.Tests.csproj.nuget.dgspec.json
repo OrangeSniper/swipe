@@ -118,7 +118,7 @@
           "dependencies": {
             "ppy.osu.Game": {
               "target": "Package",
-              "version": "[2020.312.0, )"
+              "version": "[2021.109.0, )"
             }
           },
           "imports": [

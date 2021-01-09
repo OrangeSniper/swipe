@@ -18,7 +18,6 @@ namespace osu.Game.Rulesets.swipe
 {
     public class swipeRuleset : Ruleset
     {
-        public override string Description => "osu!swipe";
 
         public override DrawableRuleset CreateDrawableRulesetWith(IBeatmap beatmap, IReadOnlyList<Mod> mods = null) =>
             new DrawableswipeRuleset(this, beatmap, mods);
@@ -42,6 +41,8 @@ namespace osu.Game.Rulesets.swipe
         }
 
         public override string ShortName => "osu!swipe";
+
+        public override string Description => "osu!swipe";
 
         public override IEnumerable<KeyBinding> GetDefaultKeyBindings(int variant = 0) => new[]
         {
