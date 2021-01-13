@@ -35,9 +35,9 @@ namespace osu.Game.Rulesets.swipe.Replays
             }
         }
 
-        public override List<IInput> GetPendingInputs()
+        public override void GetPendingInputs()
         {
-            return new List<IInput>
+            inputs.Add(new MousePositionAbsoluteInput
             {
                 new MousePositionAbsoluteInput
                 {
