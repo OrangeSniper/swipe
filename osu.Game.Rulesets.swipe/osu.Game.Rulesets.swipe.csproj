@@ -13,6 +13,6 @@
     <EmbeddedResource Include="Resources\**" />
   </ItemGroup>
   <ItemGroup>
-    <PackageReference Include="ppy.osu.Game" Version="2021.907.0" />
+    <PackageReference Include="ppy.osu.Game" Version="2022.723.0" />
   </ItemGroup>
 </Project>
